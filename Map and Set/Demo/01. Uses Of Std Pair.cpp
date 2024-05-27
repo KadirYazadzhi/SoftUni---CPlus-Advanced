@@ -30,4 +30,5 @@ int main() {
 
     cout << integerName.first << " is " << integerName.second << endl;
 
+    return 0;
 }
