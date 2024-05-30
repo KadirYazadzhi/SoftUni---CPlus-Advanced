@@ -1,30 +1,35 @@
 #include <iostream>
 #include <sstream>
 #include <vector>
-#include <cmath>
-#include <bits/stdc++.h>
+#include <map>
 
 using namespace std;
 
 int main(void) {
-    string data;
-    getline(cin, data);
+    map<string, double> numbers;
+    vector<string> order;
 
-    istringstream istr(data);
+    string type;
+    double number;
 
-    vector<int> numbers;
+    cin >> type;
+    while (type != "stop") {
+        cin >> number;
 
-    int num;
-    while (istr >> num) {
-        numbers.push_back(num);
-    }
-
-    sort(numbers.begin(), numbers.end(), greater<int>());
-
-    for (auto n : numbers) {
-        int sq = sqrt(n);
-        if (sq * sq == n) {
-            cout << n << " ";
+        map<string, double>::iterator itI = numbers.find(type);
+        if (itI != numbers.end()) {
+            itI->second += number;
         }
+        else {
+            numbers[type] = number;
+            order.push_back(type);
+        }
+
+        cin >> type;
     }
+
+    for (string curr : order) {
+        cout << curr << " -> " << numbers[curr] << endl;
+    }
+
 }
