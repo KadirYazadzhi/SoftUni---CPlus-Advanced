@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <cmath>
 
 using namespace std;
 
@@ -7,10 +7,10 @@ int main() {
     int n;
     cin >> n;
 
-    double primarySum = 0;
-    double nonPrimarySum = 0;
+    int primarySum = 0;
+    int nonPrimarySum = 0;
 
-    double arr[n][n];
+    int arr[n][n];
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
@@ -20,13 +20,10 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         primarySum += arr[i][i];
-    }
-
-    for (int i = 0; i < n; i++) {
         nonPrimarySum += arr[i][n - i - 1];
     }
 
-    double answer = nonPrimarySum - primarySum;
+    double answer = abs(nonPrimarySum - primarySum);
 
     cout << answer << endl;
 }
