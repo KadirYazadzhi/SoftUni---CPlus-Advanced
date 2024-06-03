@@ -32,7 +32,7 @@ int main() {
 
     size_t count = 0;
     for (size_t curRow = 0; curRow < mat.size() - 1; curRow++) {
-        for (size_t curCol = 0; curCol < mat[0].size(); curCol++) {
+        for (size_t curCol = 0; curCol < mat[0].size() - 2; curCol++) {
             if (detect2x2(mat, curRow, curCol)) {
                 count++;
             }
