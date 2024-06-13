@@ -19,9 +19,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef255c64-24f4-4d2b-93d6-68238f9b5996" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Memory Management, References, Pointers - Exercise/Tasks/06. Minesweeper.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Memory Management/Demo/01. Function Pointers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Memory Management/Demo/02. Void Pointer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Memory Management/Demo/03. Pitfall Unchecked CStyle Casting.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memory Management, References, Pointers - Exercise/Tasks/05. Compare Matrices.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Memory Management, References, Pointers - Exercise/Tasks/05. Compare Matrices.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,7 @@
       <workItem from="1716736145961" duration="17284000" />
       <workItem from="1716769732517" duration="48391000" />
       <workItem from="1718088636899" duration="11416000" />
-      <workItem from="1718142927748" duration="10261000" />
+      <workItem from="1718142927748" duration="11809000" />
     </task>
     <servers />
   </component>
