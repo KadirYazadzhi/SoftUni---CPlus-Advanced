@@ -18,11 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef255c64-24f4-4d2b-93d6-68238f9b5996" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Memory Management/Tasks/01. MinBy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Memory Management/Tasks/02. Remove Invalid.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ef255c64-24f4-4d2b-93d6-68238f9b5996" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +108,7 @@
       <workItem from="1716736145961" duration="17284000" />
       <workItem from="1716769732517" duration="48391000" />
       <workItem from="1718088636899" duration="11416000" />
-      <workItem from="1718142927748" duration="21272000" />
+      <workItem from="1718142927748" duration="22841000" />
     </task>
     <servers />
   </component>
