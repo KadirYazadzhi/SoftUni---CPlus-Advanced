@@ -19,7 +19,7 @@ void setRust(int row, int col, char matrix[DIMENSION][DIMENSION+1], char symbol)
     if (row < 0 ||  col < 0 || row >= DIMENSION || col >= DIMENSION) {
         return;
     }
-    if (matrix[row][col] != '#') {
+    if (matrix[row][col] == EMPTY) {
         matrix[row][col] = symbol;
     }
 }
@@ -41,7 +41,7 @@ void fixTempRust(char matrix[DIMENSION][DIMENSION+1]) {
     for (int row = 0; row < DIMENSION; row++) {
         for (int col = 0; col < DIMENSION; col++) {
             if (matrix[row][col] == TEMP_RUST) {
-                matrix[row][col] == RUST;
+                matrix[row][col] = RUST;
             }
         }
     }
@@ -59,14 +59,14 @@ void ticksChange(char matrix[DIMENSION][DIMENSION+1]) {
     size_t ticks;
     cin >> ticks;
 
-    for (;ticks; ticks++) {
+    for (;ticks; ticks--) {
         putTempRust(matrix);
         fixTempRust(matrix);
     }
 }
 
 int main() {
-    char matrix[DIMENSION][DIMENSION+1];
+    char matrix[DIMENSION][DIMENSION+1] = {0};
     readMatrix(matrix);
 
     ticksChange(matrix);
