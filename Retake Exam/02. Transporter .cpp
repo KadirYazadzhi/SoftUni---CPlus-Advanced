@@ -8,7 +8,7 @@ using namespace std;
 int main() {
     vector<pair<string, int>> stations;
     string line;
-    
+
     while (getline(cin, line) && line != "end") {
         istringstream iss(line);
         string station;
